@@ -16,7 +16,7 @@
     <RepositoryUrl>https://github.com/WUSTL-EMED/WUSTL.EMed.AspNetCore.Mvc.CookieBinder.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>aspnetcore binder cookie cookiebinder cookies modelbinder</PackageTags>
-    <PackageVersion>1.1.0</PackageVersion>
+    <PackageVersion>1.1.1</PackageVersion>
     <Description>Enables binding a controller method parameter from a cookie value by name.</Description>
   </PropertyGroup>
 
