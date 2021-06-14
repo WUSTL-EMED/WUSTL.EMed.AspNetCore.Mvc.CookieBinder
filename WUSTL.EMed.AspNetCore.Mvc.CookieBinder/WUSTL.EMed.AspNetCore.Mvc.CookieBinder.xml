@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WUSTL.EMed.AspNetCore.Mvc.CookieBinder</name>
+    </assembly>
+    <members>
+        <member name="T:WUSTL.EMed.AspNetCore.Mvc.CookieBinder.FromCookieAttribute">
+            <summary>
+            Specifies that a parameter or property should be bound using the request cookies.
+            </summary>
+        </member>
+        <member name="M:WUSTL.EMed.AspNetCore.Mvc.CookieBinder.FromCookieAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:WUSTL.EMed.AspNetCore.Mvc.CookieBinder.FromCookieAttribute"/> class.
+            </summary>
+            <param name="name">The name of the cookie to bind using.</param>
+        </member>
+        <member name="P:WUSTL.EMed.AspNetCore.Mvc.CookieBinder.FromCookieAttribute.BinderType">
+            <inheritdoc/>
+        </member>
+        <member name="P:WUSTL.EMed.AspNetCore.Mvc.CookieBinder.FromCookieAttribute.BindingSource">
+            <inheritdoc/>
+        </member>
+        <member name="P:WUSTL.EMed.AspNetCore.Mvc.CookieBinder.FromCookieAttribute.Name">
+            <inheritdoc/>
+        </member>
+        <member name="T:WUSTL.EMed.AspNetCore.Mvc.CookieBinder.ModelBinders.CookieModelBinder">
+            <summary>
+            Specifies that a parameter or property should be bound using a request cookie.
+            </summary>
+        </member>
+        <member name="F:WUSTL.EMed.AspNetCore.Mvc.CookieBinder.ModelBinders.CookieModelBinder.BindingSource">
+            <summary>
+            A <see cref="T:Microsoft.AspNetCore.Mvc.ModelBinding.BindingSource"/> for the request cookies.
+            </summary>
+        </member>
+        <member name="M:WUSTL.EMed.AspNetCore.Mvc.CookieBinder.ModelBinders.CookieModelBinder.#ctor(Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            Initializes a new instance of the <see cref="T:WUSTL.EMed.AspNetCore.Mvc.CookieBinder.ModelBinders.CookieModelBinder"/> class.
+            </summary>
+            <param name="loggerFactory">The <see cref="T:Microsoft.Extensions.Logging.ILoggerFactory"/>.</param>
+        </member>
+        <member name="M:WUSTL.EMed.AspNetCore.Mvc.CookieBinder.ModelBinders.CookieModelBinder.BindModelAsync(Microsoft.AspNetCore.Mvc.ModelBinding.ModelBindingContext)">
+            <inheritdoc/>
+        </member>
+        <member name="T:WUSTL.EMed.AspNetCore.Mvc.CookieBinder.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:WUSTL.EMed.AspNetCore.Mvc.CookieBinder.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:WUSTL.EMed.AspNetCore.Mvc.CookieBinder.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:WUSTL.EMed.AspNetCore.Mvc.CookieBinder.Properties.Resources.BindingSource_Cookie">
+            <summary>
+              Looks up a localized string similar to Cookie.
+            </summary>
+        </member>
+        <member name="T:ThisAssembly">
+            <summary>Provides access to the current assembly information.</summary>
+        </member>
+        <member name="T:ThisAssembly.Git">
+            <summary>Provides access to the git information for the current assembly.</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.IsDirty">
+            <summary>IsDirty: false</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.IsDirtyString">
+            <summary>IsDirtyString: false</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.RepositoryUrl">
+            <summary>Repository URL: git@github.com:WUSTL-EMED/WUSTL.EMed.AspNetCore.Mvc.CookieBinder.git</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Branch">
+            <summary>Branch: master</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Commit">
+            <summary>Commit: 6125925</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Sha">
+            <summary>Sha: 6125925aa17363b2cde908d7ebdadddbec3d8224</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.CommitDate">
+            <summary>Commit date: 2021-03-13T11:48:04-06:00</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Commits">
+            <summary>Commits on top of base version: 3</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Tag">
+            <summary>Tag: </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.BaseTag">
+            <summary>Base tag: </summary>
+        </member>
+        <member name="T:ThisAssembly.Git.BaseVersion">
+            <summary>Provides access to the base version information used to determine the <see cref="T:ThisAssembly.Git.SemVer" />.</summary>      
+        </member>
+        <member name="F:ThisAssembly.Git.BaseVersion.Major">
+            <summary>Major: 0</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.BaseVersion.Minor">
+            <summary>Minor: 0</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.BaseVersion.Patch">
+            <summary>Patch: 0</summary>
+        </member>
+        <member name="T:ThisAssembly.Git.SemVer">
+            <summary>Provides access to SemVer information for the current assembly.</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Major">
+            <summary>Major: 0</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Minor">
+            <summary>Minor: 0</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Patch">
+            <summary>Patch: 3</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Label">
+            <summary>Label: </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.DashLabel">
+            <summary>Label with dash prefix: </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Source">
+            <summary>Source: Default</summary>
+        </member>
+    </members>
+</doc>
